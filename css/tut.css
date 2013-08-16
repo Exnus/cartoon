@@ -1,0 +1,47 @@
+/*** Style Definitions ***/
+html			{background: #DDD url('../images/hp-bg.jpg'); font-family:Arial, Helvetica, sans-serif; }
+body {display: block; width: 900px; height: 500px; margin: 150px auto;}
+
+/* Human */
+.human {background: url('../images/grad.png'); position: absolute; z-index: 1; width: 900px; height: 500px; display: block;}
+#human_stat {position: absolute; width: 148px; height: 220px; top: 210px; left: 43%; background:url(../images/human_stat.png) no-repeat;}
+#human_go {position: absolute; display: none; width: 148px; height: 220px; top: 210px; left: 44%; background:url(../images/human_go.png) no-repeat;}
+#human_phone {position: absolute; display: none; width: 361px; height: 348px; top: 83px; left: 23%; background:url(../images/human_phone.png) no-repeat;}
+#human_how {position: absolute; display: none; width: 339px; height: 340px; top: 90px; left: 25.5%; background:url(../images/human_how.png) no-repeat;}
+#human_learn {position: absolute; display: none; width: 405px; height: 341px; top: 90px; left: 27%; background:url(../images/human_learn.png) no-repeat;}
+#human_go_glass {position: absolute; display: none; width: 213px; height: 326px; top: 110px; left: 34%; background:url(../images/human_go_glass.png) no-repeat;}
+#human_pc {position: absolute; display: none; width: 222px; height: 284px; top: 150px; left: 38%; background:url(../images/human_pc.png) no-repeat;}
+#human_run {position: absolute; display: none; width: 365px; height: 331px; top: 100px; left: 30%; background:url(../images/human_run.png) no-repeat;}
+#human_now {position: absolute; display: none; width: 668px; height: 348px; top: 83px; left: 22%; background:url(../images/human_now.png) no-repeat;}
+
+#horisont {background: url('../images/bg.png') no-repeat; display: none; position: absolute; width: 900px; height: 1px; top: 290px; }
+/*** Plans ***/
+.plans					{ width:100%; height:500px; overflow:hidden; }
+#city			{ margin: 0 900px 0 900px; width:5000px; height:100%; background:url(../images/city1.png) repeat-x;}
+#plan1					{ position:relative; top:-500px; }
+#plan1_art				{ width:7000px; height:100%; margin-left: 900px; background:url(../images/plan1a.png) repeat-x;}
+
+/*** Header ***/
+
+#menu				{ position:absolute; top: 10; z-index:10; width: 100%; min-width: 900px; left: 0;}
+
+#menu a				{ color:#D7D6D6; text-decoration:none; margin-right:10px; }
+					
+#menu a:hover		{ color:#FFF; text-decoration:none; margin-right:10px;}
+
+#menu a.selected	{ color:#313131; text-decoration:none; margin-right:10px; }
+					
+#menu li			{ float:left; width: 14.28%; text-align: center;}
+
+/*** Body Content ***/
+#wrapper	{  position: absolute; z-index: 2; width: 900px; height: 500px; top: 0; overflow:hidden; }
+
+#mask		{ width:400%; height:100%; }
+
+.box		{ display: none; width:25%; height:100%; float:left; }
+
+.content	{ width:260px; height:80px; top:20%; margin: 20px 0 0 485px; position:relative; background:rgba(255,255,255, 0.3);
+				border-radius:20px; -moz-border-radius:20px; -webkit-border-radius:20px; }
+				
+.inner		{ width:220px; height:40px; background:rgba(255, 255, 255, 0.3); border-radius:20px; -moz-border-radius:20px;
+					-webkit-border-radius:20px; margin:5px; padding:15px; top:5px; position:relative; }
